@@ -6,7 +6,7 @@ yarn build
 
 git checkout gh-pages
 
-rm -rf *.html *.js assets
+rm -rf index.html assets
 
 mv dist/* ./
 
@@ -15,4 +15,4 @@ rm -rf dist
 git add .
 git commit -m 'update'
 
-git push -f
+git push
